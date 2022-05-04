@@ -20,7 +20,6 @@ if __name__ == '__main__':
 	with open('input.txt', 'r') as f_re:
 		for read_string in f_re.readlines():
 			if (read_string[-1]=='\n'):
-
 				read_string = read_string[:-1]
 			list_of_strings.append(read_string)
 	with open('output.txt', 'w') as f_wr:
